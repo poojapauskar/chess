@@ -107,69 +107,20 @@
 </head>
 <body style="background-color:#8FD400;overflow-x: hidden">
 
-<?php 
-
-// link active for particular period
-/*$today = new DateTime();
-$start = new DateTime("2016-01-01");
-$end = new DateTime("2016-12-31");
-
-if($start <= $today && $today <= $end) {
-  //show index.php;
-}
-else{
-  echo "<script> document.location.href='link_expired.php';</script>";
-}*/
-
-?>
 
 
 
 
-<div class="row">
+<div class="row" style="text-align: center;margin-top:5%">
 
-<div class="col-sm-1">
+<img style="width:250px" src="images/knight.png"></img>
 </div>
 
-<div class="col-sm-4" style="margin-top:5%;" align="middle">
-   <div style="text-align: left;width:500px;height:500px;background-color: #FFFF00">
-   <br><br><br>
-       <h3 style="text-align: center !important">IMPORTANT</h3>
 
-       <ol type="A">
-        <li>The test consists of 30 questions.</li>
-         <li>The test includes concepts and puzzles.</li>
-        <li>Answer the questions in the space provided.</li>
-        <li>Hit submit only after the test is completed.</li>
-        <li>Time Period : ONE hour.</li>
-      </ol>  
-
-
-   </div>
-</div>
-<div class="col-sm-2">
-</div>
-<div class="col-sm-4" style="margin-top: 5%;text-align: left" >
-    <form id="form1" name="form1" method="post" onsubmit="return check()" action="questions.php" style="">
-    <label>Username</label><br>
-    <div class="form-group">
-        <input class="form-control" type="text" name="username" required/>
-    </div>
-
-    <label style="">Password</label>
-    <div class="form-group">
-        <input class="form-control" type="text" name="password" required/>
-    </div>
-
-    <br><br>
-    <button class="button" onClick="document.location.href='test.php'" class="btn btn-default btn-lg" type="submit" style="">Submit</button>
-    </form>
-
-</div>
-
-<div class="col-sm-2">
-</div>
-
+<div class="row" style="margin-top:4%;text-align: center;background-color: #FF7A00">
+    <h4 style="color:black;margin-top:3%;font-family: Action Man Shaded;font-size: 50px;">THANK YOU for participating.</h4>
+    <h6 style="margin-bottom:4%;color:black;margin-top:3%;font-family: Action Man Shaded;font-size: 30px;">Results will be out soon.</h6>
+  </div>
 
 
 </div>
