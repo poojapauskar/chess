@@ -65,7 +65,7 @@
 
 
 
-<div class="row" style="text-align: center;background-color: #FFFF00">
+<div class="row" style="text-align: center;background-color: #FFFF00;">
     <h4 class="congo_text" style="color:black;margin-top:3%;font-family: Action Man Shaded;">Congratulations !</h4>
   </div>
 

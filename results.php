@@ -55,11 +55,11 @@
 
 
 
-<div class="row" style="text-align: center;background-color: #FFFF00">
+<div class="row" style="text-align: center;background-color: #FFFF00;">
     <h4 class="main_heading" style="color:black;margin-top:3%;font-family: Action Man Shaded;">Results</h4>
   </div>
 
-<div class="row" style="margin-top: 8%" align="middle">
+<div class="row" style="margin-top: 8%;padding-bottom: 4%" align="middle">
 
 
 

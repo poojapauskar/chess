@@ -66,8 +66,8 @@
 </div>
 
 
-<div class="row" id="thankyou_next_row" style="text-align: center;background-color: #FF7A00">
-    <h4 id="thankyou" style="color:black;margin-top:3%;font-family: Action Man Shaded;">THANK YOU for participating.</h4>
+<div class="row" id="thankyou_next_row" style="text-align: center;background-color: white">
+    <h4 id="thankyou" style="color:black;font-family: Action Man Shaded;">THANK YOU for participating.</h4>
     <h6 id="res_soon" style="margin-bottom:4%;color:black;margin-top:3%;font-family: Action Man Shaded;">Results will be out soon.</h6>
   </div>
 
