@@ -1,0 +1,256 @@
+
+.main_heading{
+	font-size: 80px;
+}
+
+.main_img{
+	height:200px;
+}
+
+.main_btn{
+	   background-color: 		#FF7A00  !important;
+	   color:black  !important;
+	   font-family: Action Man Shaded;
+	   font-size: 50px  !important;
+	   border:4px solid black !important;
+	}
+
+#login_list li{
+     font-family: Action Man;
+    color:black;
+    font-size:20px  !important;
+    margin-top:5%;
+  }
+
+#ins_box{
+	width:500px;
+	height: 500px;
+}
+
+#login_submit{
+     background-color:    #FF7A00  !important;
+     color:black  !important;
+     font-family: Action Man Shaded;
+     font-size: 50px  !important;
+     border:4px solid black !important;
+  }
+
+#test_submit{
+     background-color:    #FF7A00  !important;
+     color:black  !important;
+     font-family: Action Man Shaded;
+     font-size: 50px  !important;
+     border:4px solid black !important;
+  }
+
+  #thankyou_next_row{
+  	margin-top: 4%;
+  }
+
+  #thankyou{
+    font-size: 50px;
+  }
+
+  #res_soon{
+     font-size: 30px;
+  }
+
+  #thankyou_row{
+  	margin-top: 5%;
+  }
+
+  label{
+    font-family: Action Man;
+    color:black;
+    font-size:35px  !important;
+    margin-top:5%;
+  }
+  
+  
+  input{
+    width:97% !important;
+    height:50px !important;
+  }
+
+  .res_btn{
+  	
+  	background-color:    #FF7A00  !important;
+     color:black  !important;
+     font-family: Action Man Shaded;
+     font-size: 30px  !important;
+     border:4px solid black !important;
+  }
+
+  .congo_text{
+  	font-size: 80px;
+  }
+
+@media (max-width:2500px) { 
+
+
+
+}
+
+@media (max-width:1700px) { 
+
+}
+
+@media (max-width:1640px) { 
+
+
+
+}
+
+@media (max-width:1600px) { 
+
+
+}
+
+
+@media (max-width:1550) { 
+ 
+}
+
+
+@media (max-width:1500px) { 
+
+ 
+
+}
+
+@media (max-width:1300px) { 
+	
+}
+
+
+
+@media (max-width:1260px) { 
+	
+}
+
+@media (max-width:1240px) { 
+	
+}
+
+@media (max-width:1150px) { 
+	
+
+}
+
+@media (max-width:1020px) { 
+	
+   .main_heading{
+	font-size: 40px;
+}
+
+.main_img{
+	height:100px;
+}
+
+.main_btn{
+	   background-color: 		#FF7A00  !important;
+	   color:black  !important;
+	   font-family: Action Man Shaded;
+	   font-size: 30px  !important;
+	   border:4px solid black !important;
+	   margin-top: 2%;
+	   width:200px;
+	}
+
+#login_list li{
+     font-family: Action Man;
+    color:black;
+    font-size:12px  !important;
+    margin-top:5%;
+  }
+
+ #ins_box{
+	width:310px;
+	height: 310px;
+}
+
+#login_submit{
+     background-color:    #FF7A00  !important;
+     color:black  !important;
+     font-family: Action Man Shaded;
+     font-size: 30px  !important;
+     border:4px solid black !important;
+  }
+
+  label{
+    font-family: Action Man;
+    color:black;
+    font-size:25px  !important;
+    margin-top:5%;
+  }
+  
+  
+  input{
+    width:67% !important;
+    height:30px !important;
+  }
+
+#test_submit{
+     background-color:    #FF7A00  !important;
+     color:black  !important;
+     font-family: Action Man Shaded;
+     font-size: 30px  !important;
+     border:4px solid black !important;
+  }
+
+  #thankyou{
+    font-size: 30px;
+  }
+
+  #res_soon{
+     font-size: 20px;
+  }
+
+  #thankyou_next_row{
+  	margin-top: 8%;
+  }
+
+  #thankyou_row{
+  	margin-top: 10%;
+  }
+
+  .res_btn{
+  	margin-top: 2%;
+  	background-color:    #FF7A00  !important;
+     color:black  !important;
+     font-family: Action Man Shaded;
+     font-size: 30px  !important;
+     border:4px solid black !important;
+  }
+
+ .congo_text{
+  	font-size: 50px;
+  }
+
+}
+
+@media (max-width:580px) { 
+
+  .congo_text{
+  	font-size: 30px;
+  }
+}
+
+@media (max-width:500px) { 
+
+  #thankyou{
+    font-size: 18px;
+  }
+
+  #res_soon{
+     font-size: 10px;
+  }
+
+  #thankyou_next_row{
+  	margin-top: 14%;
+  }
+
+  #thankyou_row{
+  	margin-top: 24%;
+  }
+}

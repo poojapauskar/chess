@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/responsive.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -26,11 +27,7 @@
     margin-top:5%;
   }
   button{
-     background-color:    #FF7A00  !important;
-     color:black  !important;
-     font-family: Action Man Shaded;
-     font-size: 50px  !important;
-     border:4px solid black !important;
+     
   }
   button:focus{
      outline: none !important;
@@ -59,7 +56,7 @@
 
 
 <div class="row" style="text-align: center;background-color: #FFFF00">
-    <h4 style="color:black;margin-top:3%;font-family: Action Man Shaded;font-size: 80px;">Results</h4>
+    <h4 class="main_heading" style="color:black;margin-top:3%;font-family: Action Man Shaded;">Results</h4>
   </div>
 
 <div class="row" style="margin-top: 8%" align="middle">
@@ -67,21 +64,21 @@
 
 
 <div class="col-sm-4">
-   <button onClick="document.location.href='august_results.php'" class="button" class="btn btn-default btn-lg" type="submit" style="border-radius: 30%;width:200px;height:200px">Aug 2018</button>
+   <button onClick="document.location.href='august_results.php'" class="button btn btn-default btn-lg res_btn" type="submit" style="border-radius: 30%;width:200px;height:200px">Aug 2018</button>
 </div>
 
 
 
 
 <div class="col-sm-4">
-   <button class="button" class="btn btn-default btn-lg" type="submit" style="border-radius: 30%;width:200px;height:200px" disabled>Sep 2018</button>
+   <button class="button btn btn-default btn-lg res_btn" type="submit" style="border-radius: 30%;width:200px;height:200px" disabled>Sep 2018</button>
 </div>
 
 
 
 <div class="col-sm-4">
 
-   <button class="button" class="btn btn-default btn-lg" type="submit" style="border-radius: 30%;width:200px;height:200px" disabled>Oct 2018</button>
+   <button class="button btn btn-default btn-lg res_btn" type="submit" style="border-radius: 30%;width:200px;height:200px" disabled>Oct 2018</button>
 </div>
 
 
