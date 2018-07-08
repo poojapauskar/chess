@@ -174,7 +174,7 @@
   <br><br>
     <button onClick="document.location.href='thankyou.php'" class="button" class="btn btn-default btn-lg" type="submit" style="" id="test_submit">Submit</button>
 
-  <div class="row" style="text-align: left;background-color: #8FD400;height:100px">
+  <div class="row" style="text-align: left;background-color: #8FD400;height:20px">
    
   </div>
 
