@@ -222,7 +222,7 @@ function closeNav() {
 
 <div style="position:fixed;bottom:2%;right:1%;"">
 <p style="">Time Left</p>
-<input style="background-color:#FF7A00;border:1px solid black;width:200px !important;height:50px !important;margin-top: -1%;color:black;font-family: Action Man;font-size:20px" placeholder="" class="form-control" type="text" name="remain" id="remain"/>
+<input style="" placeholder="" class="form-control" type="text" name="remain" id="remain"/>
 </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
