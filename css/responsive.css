@@ -1,3 +1,7 @@
+body{
+  overflow-x: hidden !important;
+}
+
 .sidenav {
     height: 100%;
     width: 0;

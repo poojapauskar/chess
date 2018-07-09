@@ -58,7 +58,7 @@
   
 </style>
 </head>
-<body style="background-color:#8FD400;overflow-x: hidden">
+<body style="background-color:#8FD400;overflow-x: hidden !important">
 
 
 <?php
