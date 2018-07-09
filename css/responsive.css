@@ -54,10 +54,17 @@
 	   background-color: 		#FF7A00  !important;
 	   color:black  !important;
 	   font-family: Action Man Shaded;
-	   font-size: 50px  !important;
+	   font-size: 40px  !important;
 	   border:4px solid black !important;
 	}
+.span{
+    font-family: Action Man Shaded;
+     font-size: 25px  !important;
+}
 
+#register{
+  margin-top: -5%
+}
 #login_list li{
      font-family: Action Man;
     color:black;
@@ -209,6 +216,11 @@
 	   width:200px;
 	}
 
+.span{
+    font-family: Action Man Shaded;
+     font-size: 18px  !important;
+}
+
 #login_list li{
      font-family: Action Man;
     color:black;
@@ -305,11 +317,20 @@
 	   background-color: 		#FF7A00  !important;
 	   color:black  !important;
 	   font-family: Action Man Shaded;
-	   font-size: 30px  !important;
+	   font-size: 20px  !important;
 	   border:4px solid black !important;
 	   margin-top: 1%;
 	   width:200px;
 	}
+
+  .span{
+    font-family: Action Man Shaded;
+     font-size: 14px  !important;
+}
+
+  #register{
+  margin-top: -3%
+}
 }
 
 @media (max-width:824px) { 
