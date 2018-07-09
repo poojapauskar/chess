@@ -65,7 +65,7 @@ if(isset($_POST['login_submit'])){
          if($arr2[0]['level']=="level2"){
           echo "<script>location='level2.php'</script>";
          }
-         if($arr2[0]['level']=="level2"){
+         if($arr2[0]['level']=="level3"){
           echo "<script>location='level3.php'</script>";
          }
 
