@@ -22,43 +22,65 @@
 	button:focus{
 	   outline: none !important;
 	}
-	p{
-	  font-family: Action Man;
-	  color:black;
-	  font-size:20px  !important;
-	  margin-top:5%;
-	}
+	
 </style>
 </head>
 <body style="background-color:#8FD400">
 
+
+
 <div class="container-fluid">
   <div class="row" style="text-align: center;background-color: #FFFF00">
-    <h4 class="main_heading" style="color:black;margin-top:3%;font-family: Action Man Shaded;">CHESS CHALLENGE</h4>
-  </div>
 
-   <div class="row" style="text-align: center;margin-top: 3%">
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.php">Home</a>
+  <a href="results.php">Results</a>
+</div>
+
+<span id="burger_span" style=""
+    onclick="openNav()"><img id="burger_img" src="images/burger.png"></img></span>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+
+
+    <h4 class="main_heading" style="color:black;margin-top:3%;font-family: Action Man Shaded;">CHESS CHALLENGE</h4>
+
+
+</div>
+
+   <div class="row" style="text-align: center;margin-top: 3%;padding-bottom: 2%">
 		   <div class="col-sm-4" style=""> 
-		      <img class="main_img" style="" src="images/pawn.png"></img>
-		      <p>"I might be considered weak, but i never back down."</p>
+		      <img id="img1" class="main_img" style="" src="images/pawn.png"></img>
+		      <p class="main_lines">"I might be considered weak, but i never back down."</p>
+		      <button class="btn btn-default btn-lg main_btn" onClick="document.location.href='login.php?group=level_1'">LEVEL 1</button>
 		   </div>
 		   <div class="col-sm-4" style=""> 
-		       <img class="main_img"  style="" src="images/queen.png"></img>
-		       <p>"Even the King bows to my power."</p>
+		       <img id="img2" class="main_img"  style="" src="images/queen.png"></img>
+		       <p class="main_lines">"Even the King bows to my<br>power."</p>
+
+		        <button style="" class="btn btn-default btn-lg main_btn" onClick="document.location.href='login.php?group=level_2'">LEVEL 2</button>
 		   </div>
 		   <div class="col-sm-4" style=""> 
-		        <img class="main_img"  style="" src="images/home.png"></img>
-		        <p>"To lead the people, walk behind them."</p>
+		        <img id="img3" class="main_img"  style="" src="images/home.png"></img>
+		        <p class="main_lines">"To lead the people, walk behind them."</p>
+		        <button class="btn btn-default btn-lg main_btn" onClick="document.location.href='login.php?group=level_3'">LEVEL 3</button>
 		   </div>
 
    
   </div>
 
-  <div class="row" style="text-align: center;margin-top: 1%">
-    <div class="col-sm-4" style=""><button class="btn btn-default btn-lg main_btn" onClick="document.location.href='login.php?group=level_1'">LEVEL 1</button></div>
-    <div class="col-sm-4" style=""><button class="btn btn-default btn-lg main_btn" onClick="document.location.href='login.php?group=level_2'">LEVEL 2</button></div>
-    <div class="col-sm-4" style=""><button class="btn btn-default btn-lg main_btn" onClick="document.location.href='login.php?group=level_3'">LEVEL 3</button></div>
-  </div>
+  
 </div>
 
 </body>

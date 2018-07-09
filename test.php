@@ -62,6 +62,26 @@
 
 
    <div class="row" style="text-align: center;background-color: #FFFF00">
+
+   <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.php">Home</a>
+  <a href="results.php">Results</a>
+</div>
+
+<span id="burger_span" style=""
+    onclick="openNav()"><img id="burger_img" src="images/burger.png"></img></span>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
     <h4 class="main_heading" style="color:black;margin-top:3%;font-family: Action Man Shaded;">Challenge</h4>
   </div>
 

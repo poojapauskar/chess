@@ -103,7 +103,26 @@ else{
 ?>
 
 
+<div class="row" style="padding-bottom: 20px">
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.php">Home</a>
+  <a href="results.php">Results</a>
+</div>
 
+<span id="burger_span" style=""
+    onclick="openNav()"><img id="burger_img" src="images/burger.png"></img></span>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</div>
 
 <div class="row">
 
@@ -113,7 +132,7 @@ else{
 <div class="col-sm-4" style="margin-top:5%;" align="middle">
    <div id="ins_box" style="text-align: left;background-color: #FFFF00">
    <br><br><br>
-       <h3 style="text-align: center !important">IMPORTANT</h3>
+       <h3 id="imp_text" style="text-align: center !important">IMPORTANT</h3>
 
        <ol id="login_list" type="A">
         <li>The test consists of 30 questions.</li>
@@ -128,7 +147,7 @@ else{
 </div>
 <div class="col-sm-2">
 </div>
-<div class="col-sm-4" style="margin-top: 5%;margin-left:5%;text-align: left" >
+<div class="col-sm-4" id="form_area" style="margin-top: 5%;margin-left:5%;text-align: left" >
     <form id="form1" name="form1" method="post" onsubmit="return check()" action="questions.php" style="">
     <label>Username</label><br>
     <div class="form-group">
