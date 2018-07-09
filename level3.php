@@ -69,7 +69,7 @@ session_start();
         'http' => array(
           'header'  => array(
                         'USERNAME: '.$_SESSION['challenge_username'],
-                        'LEVEL: level3',
+                        'LEVEL: level1',
                       ),
           'method'  => 'GET',
         ),
@@ -85,6 +85,58 @@ session_start();
       }
 
 ?>
+
+<?php
+session_start();
+
+      $url_c = 'https://chess-challenges.herokuapp.com/get_clock/';
+      $options_c = array(
+        'http' => array(
+          'header'  => array(
+                        'USERNAME: '.$_SESSION['challenge_username'],
+                        'LEVEL: level3',
+                      ),
+          'method'  => 'GET',
+        ),
+      );
+      $context_c = stream_context_create($options_c);
+      $output_c = file_get_contents($url_c, false,$context_c);
+      /*echo $output2;*/
+      $arr_c = json_decode($output_c,true);
+      $clock= $arr_c[0]['clock'];
+
+      /*echo $clock;*/
+      
+?>
+
+<script type="text/javascript">
+      window.onload=counter;
+      function counter()
+      {
+        var seconds= '<?php echo $clock ?>';
+        /*alert(seconds);*/
+        if(seconds == ''){
+            seconds="3600";
+        }
+        countDown();
+        function countDown()
+        {
+          document.getElementById('seconds').value = seconds;
+          min= Math.floor(seconds/60);
+          sec= seconds%60;
+          document.getElementById("remain").value=min+" min : "+sec+" sec";
+          if(seconds>0)
+          {
+             seconds=seconds - 1;
+             setTimeout(countDown,1000);
+          }
+          if(seconds == 0)
+          {
+             document.getElementById("t_submit").click();
+          }
+        }
+      }
+</script>
 
 <script type="text/javascript">
 
@@ -112,7 +164,7 @@ window.setInterval(function(){
   var a19 = document.getElementById('a19').value;
   var a20 = document.getElementById('a20').value;
 
-  var s1 = "";
+  var s1 = document.getElementById('seconds').value;
   
   var Url="update.php";
 
@@ -164,6 +216,15 @@ function closeNav() {
 
 <form method="post" name="myForm" id="myForm" action="submit.php">  
 <div style="margin-left: 5%">
+
+
+<input placeholder="" class="form-control" type="hidden" name="seconds" id="seconds"/>
+
+<div style="position:fixed;bottom:2%;right:1%;"">
+<p style="">Time Left</p>
+<input style="background-color:#FF7A00;border:1px solid black;width:200px !important;height:50px !important;margin-top: -1%;color:black;font-family: Action Man;font-size:20px" placeholder="" class="form-control" type="text" name="remain" id="remain"/>
+</div>
+
   <div class="row" style="text-align: left;background-color: #8FD400">
     <p style="">Question 1 : What is Check ?</p>
     <div class="form-group">
