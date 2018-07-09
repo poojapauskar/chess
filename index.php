@@ -62,18 +62,18 @@ function closeNav() {
    <div class="row" style="text-align: center;margin-top: 2%;padding-bottom: 2%">
 		   <div class="col-sm-4" style=""> 
 		      <img id="img1" class="main_img" style="" src="images/pawn.png"></img>
-		      <p class="main_lines">"I might be considered weak, but i never back down."</p>
+		      <p class="main_lines">"I might be considered weak, <br>but i never back down."</p>
 		      <button class="btn btn-default btn-lg main_btn" onClick="document.location.href='login.php?group=level1'">LEVEL 1 <span class="span">(Rs. 100)</span></button>
 		   </div>
 		   <div class="col-sm-4" style=""> 
 		       <img id="img2" class="main_img"  style="" src="images/queen.png"></img>
-		       <p class="main_lines">"Even the King bows to my<br>power."</p>
+		       <p class="main_lines">"Even the King bows to my <br>power."</p>
 
 		        <button style="" class="btn btn-default btn-lg main_btn" onClick="document.location.href='login.php?group=level2'">LEVEL 2 <span class="span">(Rs. 150)</span></button>
 		   </div>
 		   <div class="col-sm-4" style=""> 
 		        <img id="img3" class="main_img"  style="" src="images/home.png"></img>
-		        <p class="main_lines">"To lead the people, walk behind them."</p>
+		        <p class="main_lines">"To lead the people, <br>walk behind them."</p>
 		        <button class="btn btn-default btn-lg main_btn" onClick="document.location.href='login.php?group=level3'">LEVEL 3 <span class="span">(Rs. 200)</span></button>
 		   </div>
 
