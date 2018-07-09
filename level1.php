@@ -220,7 +220,7 @@ function closeNav() {
 
 <input placeholder="" class="form-control" type="hidden" name="seconds" id="seconds"/>
 
-<div style="position:fixed;bottom:2%;right:1%;"">
+<div id="time_left_div" style="">
 <p style="">Time Left</p>
 <input style="" placeholder="" class="form-control" type="text" name="remain" id="remain"/>
 </div>
