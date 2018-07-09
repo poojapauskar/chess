@@ -11,57 +11,7 @@
 
 
 
-<script type="text/javascript">
-  function check(){
-    var n1 = document.forms["form1"]["firstname"].value;
-    var n2 = document.forms["form1"]["lastname"].value;
-    var x = document.forms["form1"]["phone"].value;
-    var y = document.forms["form1"]["email"].value;
-    var z2 = document.forms["form1"]["usn"].value;
-    var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    var letters = /^[a-zA-Z\s]*$/;
-    var numbers = /^[0-9\s]*$/;
-    var alpha_num = /^[a-z0-9]+$/i;
 
-    if((n1 !== "") && (n1.match(letters) == null)){
-       alert("Only letters and whitespaces allowed for firstname");
-        return false; 
-    }
-    if((n2 !== "") && (n2.match(letters) == null)){
-       alert("Only letters and whitespaces allowed for lastname");
-        return false; 
-    }
-    if((x !== "") && (x.match(numbers) == null)){
-       alert("Phone no. must contain only digits");
-        return false; 
-    }
-    if((x !== "") && (x.length > 15 || x.length < 7)){
-        /*alert(x);*/
-        /*window.location.href = "#popup_contain_seven1";*/
-        alert("Phone no. must contain 7-15 digits");
-        return false;
-    }
-
-
-    if(z2.match(alpha_num) == null){
-       alert("USN must contain only letters and numbers");
-        return false; 
-    }
-    if(z2.length != 10){
-        /*alert(x);*/
-        /*window.location.href = "#popup_contain_seven1";*/
-        alert("USN must contain 10 digits");
-        return false;
-    }
-
-    else{
-    /*  $("#popup1").slideToggle("speed");
-      $("#contact_us_btn").show();*/
-      return true;
-    }
-
-  }
-</script>
 
 <style type="text/css">
   @font-face {
@@ -86,28 +36,51 @@
 </head>
 <body style="background-color:#8FD400;overflow-x: hidden">
 
-<?php 
 
-// link active for particular period
-/*$today = new DateTime();
-$start = new DateTime("2016-01-01");
-$end = new DateTime("2016-12-31");
+<?php
+session_start();
+if(isset($_POST['login_submit'])){
+      $url2 = 'https://chess-challenges.herokuapp.com/login/';
+      $options2 = array(
+        'http' => array(
+          'header'  => array(
+                        'USERNAME: '.$_POST['username'],
+                        'PASSWORD: '.$_POST['password'],
+                        'LEVEL: '.$_POST['group'],
+                      ),
+          'method'  => 'GET',
+        ),
+      );
+      $context2 = stream_context_create($options2);
+      $output2 = file_get_contents($url2, false,$context2);
+      /*echo $output2;*/
+      $arr2 = json_decode($output2,true);
+      if($arr2[0]['status']==200){
+         $_SESSION['challenge_username']=$arr2[0]['username'];
+         $_SESSION['challenge_level']=$arr2[0]['level'];
+          
+         if($arr2[0]['level']=="level1"){
+          echo "<script>location='level1.php'</script>";
+         }
+         if($arr2[0]['level']=="level2"){
+          echo "<script>location='level2.php'</script>";
+         }
+         if($arr2[0]['level']=="level2"){
+          echo "<script>location='level3.php'</script>";
+         }
 
-if($start <= $today && $today <= $end) {
-  //show index.php;
+      }else{
+        echo "<script>alert('Invalid Credentials');</script>";
+      }
 }
-else{
-  echo "<script> document.location.href='link_expired.php';</script>";
-}*/
-
 ?>
 
 
 <div class="row" style="padding-bottom: 20px">
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="index.php">Home</a>
-  <a href="results.php">Results</a>
+  <a href="index.php"><img style="height:30px;margin-right: 2%" src="images/home_icon.png"></img>Home</a>
+  <a href="results.php"><img style="height:30px;margin-right: 1%" src="images/results_icon.png">Results</a>
 </div>
 
 <span id="burger_span" style=""
@@ -135,7 +108,7 @@ function closeNav() {
        <h3 id="imp_text" style="text-align: center !important">IMPORTANT</h3>
 
        <ol id="login_list" type="A">
-        <li>The test consists of 30 questions.</li>
+        <li>The test consists of 20 questions.</li>
          <li>The test includes concepts and puzzles.</li>
         <li>Answer the questions in the space provided.</li>
         <li>Hit submit only after the test is completed.</li>
@@ -148,9 +121,14 @@ function closeNav() {
 <div class="col-sm-2">
 </div>
 <div class="col-sm-4" id="form_area" style="margin-top: 5%;margin-left:5%;text-align: left" >
-    <form id="form1" name="form1" method="post" onsubmit="return check()" action="questions.php" style="">
+    <form id="form1" name="form1" method="post" onsubmit="return check()" action="login.php" style="">
     <label>Username</label><br>
     <div class="form-group">
+       
+        <input class="form-control" type="hidden" name="group" value="<?php echo $_GET['group']; ?>" readonly/>
+    </div>
+
+     <div class="form-group">
         <input class="form-control" type="text" name="username" required/>
     </div>
 
@@ -160,7 +138,7 @@ function closeNav() {
     </div>
 
     <br><br>
-    <button class="button" onClick="document.location.href='test.php'" class="btn btn-default btn-lg" type="submit" id="login_submit" style="">Submit</button>
+    <button class="button" class="btn btn-default btn-lg" type="submit" name="login_submit" id="login_submit" style="">Submit</button>
     </form>
 
 </div>

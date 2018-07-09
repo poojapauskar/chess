@@ -35,8 +35,8 @@
 
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="index.php">Home</a>
-  <a href="results.php">Results</a>
+  <a href="index.php"><img style="height:30px;margin-right: 2%" src="images/home_icon.png"></img>Home</a>
+  <a href="results.php"><img style="height:30px;margin-right: 1%" src="images/results_icon.png">Results</a>
 </div>
 
 <span id="burger_span" style=""
@@ -63,18 +63,18 @@ function closeNav() {
 		   <div class="col-sm-4" style=""> 
 		      <img id="img1" class="main_img" style="" src="images/pawn.png"></img>
 		      <p class="main_lines">"I might be considered weak, but i never back down."</p>
-		      <button class="btn btn-default btn-lg main_btn" onClick="document.location.href='login.php?group=level_1'">LEVEL 1</button>
+		      <button class="btn btn-default btn-lg main_btn" onClick="document.location.href='login.php?group=level1'">LEVEL 1</button>
 		   </div>
 		   <div class="col-sm-4" style=""> 
 		       <img id="img2" class="main_img"  style="" src="images/queen.png"></img>
 		       <p class="main_lines">"Even the King bows to my<br>power."</p>
 
-		        <button style="" class="btn btn-default btn-lg main_btn" onClick="document.location.href='login.php?group=level_2'">LEVEL 2</button>
+		        <button style="" class="btn btn-default btn-lg main_btn" onClick="document.location.href='login.php?group=level2'">LEVEL 2</button>
 		   </div>
 		   <div class="col-sm-4" style=""> 
 		        <img id="img3" class="main_img"  style="" src="images/home.png"></img>
 		        <p class="main_lines">"To lead the people, walk behind them."</p>
-		        <button class="btn btn-default btn-lg main_btn" onClick="document.location.href='login.php?group=level_3'">LEVEL 3</button>
+		        <button class="btn btn-default btn-lg main_btn" onClick="document.location.href='login.php?group=level3'">LEVEL 3</button>
 		   </div>
 
    

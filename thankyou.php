@@ -62,8 +62,8 @@
 <div class="row" style="">
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="index.php">Home</a>
-  <a href="results.php">Results</a>
+  <a href="index.php"><img style="height:30px;margin-right: 2%" src="images/home_icon.png"></img>Home</a>
+  <a href="results.php"><img style="height:30px;margin-right: 1%" src="images/results_icon.png">Results</a>
 </div>
 
 <span id="burger_span" style=""
