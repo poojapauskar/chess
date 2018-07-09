@@ -443,16 +443,7 @@
 
 @media (max-width:410px) { 
 
-  #remain{
-  background-color:#FF7A00;
-  border:1px solid black;
-  width:140px !important;
-  height:50px !important;
-  margin-top: -1%;
-  color:black;
-  font-family: Action Man;
-  font-size:15px
-}
+  
 
 
   #thankyou{
