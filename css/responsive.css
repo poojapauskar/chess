@@ -389,7 +389,7 @@ body{
   #remain{
   background-color:#FF7A00;
   border:1px solid black;
-  width:100px !important;
+  width:110px !important;
   height:50px !important;
   margin-top: -1%;
   color:black;
@@ -400,7 +400,7 @@ body{
 #time_left_div{
   position:fixed;
   bottom:2%;
-  right:8%;
+  right:10%;
 }
 
 
