@@ -227,7 +227,7 @@ function closeNav() {
 </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 1 : Can a king castle after having been in check?</p>
+    <p style="">Question 1 : What is the difference between check and checkmate?</p>
     <div class="form-group">
         <input placeholder="Answer 1" class="form-control" type="text" name="a1" id="a1"/>
     </div>
@@ -243,126 +243,135 @@ function closeNav() {
 
   <div class="row" style="text-align: left;background-color: #8FD400">
     <p style="">Question 3 : Guess the concept.</p>
-    <img style="height:200px" src="images/level_1/2.jpg"></img><br><br>
+    <img style="height:200px" src="images/level_1/2.png"></img><br><br>
     <div class="form-group">
         <input placeholder="Answer 3" class="form-control" type="text" name="a3" id="a3"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 4 : What is Checkmate ?</p>
+    <p style="">Question 4 : Rook has how many points ?</p>
     <div class="form-group">
         <input placeholder="Answer 4" class="form-control" type="text" name="a4" id="a4"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 5 : What is Checkmate ?</p>
+    <p style="">Question 5 : White to move and checkmate in two.</p>
+    <img style="height:200px" src="images/level_1/3.jpg"></img><br><br>
     <div class="form-group">
         <input placeholder="Answer 5" class="form-control" type="text" name="a5" id="a5"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 6 : What is Checkmate ?</p>
+    <p style="">Question 6 : Guess the concept ?</p>
+    <img style="height:200px" src="images/level_1/4.jpg"></img><br><br>
     <div class="form-group">
         <input placeholder="Answer 6" class="form-control" type="text" name="a6" id="a6"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 7 : What is Checkmate ?</p>
+    <p style="">Question 7 : Can you checkmate using only a king and kinght ?</p>
     <div class="form-group">
         <input placeholder="Answer 7" class="form-control" type="text" name="a7" id="a7"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 8 : What is Checkmate ?</p>
+    <p style="">Question 8 : White to move and checkmate in one ?</p>
+    <img style="height:200px" src="images/level_1/5.jpg"></img><br><br>
     <div class="form-group">
         <input placeholder="Answer 8" class="form-control" type="text" name="a8" id="a8"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 9 : What is Checkmate ?</p>
+    <p style="">Question 9 : Can king move two squares anytime ? if yes, then when can it move two squares ?</p>
     <div class="form-group">
         <input placeholder="Answer 9" class="form-control" type="text" name="a9" id="a9"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 10 : What is Checkmate ?</p>
+    <p style="">Question 10 : On which square is the black queen present ?</p>
+    <img style="height:200px" src="images/level_1/6.png"></img><br><br>
     <div class="form-group">
         <input placeholder="Answer 10" class="form-control" type="text" name="a10" id="a10"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 11 : What is Checkmate ?</p>
+    <p style="">Question 11 : White to move and checkmate in one ?</p>
+    <img style="height:200px" src="images/level_1/7.jpg"></img><br><br>
     <div class="form-group">
         <input placeholder="Answer 11" class="form-control" type="text" name="a11" id="a11"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 12 : What is Checkmate ?</p>
+    <p style="">Question 12 : White knight is attacking which 3 pieces on the board ?</p>
+    <img style="height:200px" src="images/level_1/8.jpg"></img><br><br>
     <div class="form-group">
         <input placeholder="Answer 12" class="form-control" type="text" name="a12" id="a12" />
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 13 : What is Checkmate ?</p>
+    <p style="">Question 13 : How many steps can a pawn move ?</p>
     <div class="form-group">
         <input placeholder="Answer 13" class="form-control" type="text" name="a13" id="a13"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 14 : What is Checkmate ?</p>
+    <p style="">Question 14 : Chess has 3 stages 1.opening game, 2.________ and 3. end game. Fill in the blank.</p>
     <div class="form-group">
         <input placeholder="Answer 14" class="form-control" type="text" name="a14" id="a14"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 15 : What is Checkmate ?</p>
+    <p style="">Question 15 : Which is the most important piece in chess ? And which is the most powerful piece in chess ?</p>
     <div class="form-group">
         <input placeholder="Answer 15" class="form-control" type="text" name="a15" id="a15"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 15 : What is Checkmate ?</p>
+    <p style="">Question 16 : Black to move, and checkmate in two.</p>
+    <img style="height:200px" src="images/level_1/9.jpg"></img><br><br>
     <div class="form-group">
         <input placeholder="Answer 15" class="form-control" type="text" name="a16" id="a16"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 15 : What is Checkmate ?</p>
+    <p style="">Question 17 : The below position is check, checkmate or a draw ?</p>
+    <img style="height:200px" src="images/level_1/10.jpg"></img><br><br>
     <div class="form-group">
         <input placeholder="Answer 15" class="form-control" type="text" name="a17" id="a17"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 15 : What is Checkmate ?</p>
+    <p style="">Question 18 : What happens when pawn reaches the last rank (pawn promotion rule) ?</p>
     <div class="form-group">
         <input placeholder="Answer 15" class="form-control" type="text" name="a18" id="a18"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 15 : What is Checkmate ?</p>
+    <p style="">Question 19 : White to move and checkmate in one ?</p>
+    <img style="height:200px" src="images/level_1/11.jpeg"></img><br><br>
     <div class="form-group">
         <input placeholder="Answer 15" class="form-control" type="text" name="a19" id="a19"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 15 : What is Checkmate ?</p>
+    <p style="">Question 20 : What is an illegal move?</p>
     <div class="form-group">
         <input placeholder="Answer 15" class="form-control" type="text" name="a20" id="a20"/>
     </div>
