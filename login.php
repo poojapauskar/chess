@@ -113,6 +113,7 @@ function closeNav() {
         <li>Answer the questions in the space provided.</li>
         <li>Hit submit only after the test is completed.</li>
         <li>Time Period : ONE hour.</li>
+        <li>Winners decided based on the questions answered and the time taken.</li>
       </ol>  
 
 

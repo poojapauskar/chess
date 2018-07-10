@@ -212,6 +212,7 @@ function closeNav() {
 </script>
 
     <h4 class="main_heading" style="color:black;margin-top:3%;font-family: Action Man Shaded;">Challenge</h4>
+    <h6 class="main_heading" style="color:black;margin-top:;font-family: Action Man Shaded;">Level 2</h6>
   </div>
 
 <form method="post" name="myForm" id="myForm" action="submit.php">  

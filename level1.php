@@ -212,6 +212,7 @@ function closeNav() {
 </script>
 
     <h4 class="main_heading" style="color:black;margin-top:3%;font-family: Action Man Shaded;">Challenge</h4>
+    <h6 class="main_heading" style="color:black;margin-top:;font-family: Action Man Shaded;">Level 1</h6>
   </div>
 
 <form method="post" name="myForm" id="myForm" action="submit.php">  
@@ -226,21 +227,23 @@ function closeNav() {
 </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 1 : What is Check ?</p>
+    <p style="">Question 1 : Can a king castle after having been in check?</p>
     <div class="form-group">
         <input placeholder="Answer 1" class="form-control" type="text" name="a1" id="a1"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 2 : What is Checkmate ?</p>
+    <p style="">Question 1 : White to move and checkmate in one.</p>
+    <img style="height:200px" src="images/level_1/1.jpg"></img><br><br>
     <div class="form-group">
         <input placeholder="Answer 2" class="form-control" type="text" name="a2" id="a2"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 3 : What is Checkmate ?</p>
+    <p style="">Question 3 : Guess the concept.</p>
+    <img style="height:200px" src="images/level_1/2.jpg"></img><br><br>
     <div class="form-group">
         <input placeholder="Answer 3" class="form-control" type="text" name="a3" id="a3"/>
     </div>
