@@ -116,7 +116,7 @@ session_start();
         var seconds= '<?php echo $clock ?>';
         /*alert(seconds);*/
         if(seconds == ''){
-            seconds="3600";
+            seconds="2700";
         }
         countDown();
         function countDown()
@@ -227,14 +227,14 @@ function closeNav() {
 </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 1 : What is the difference between check and checkmate?</p>
+    <p style="">Question 1 : What is the difference between check and checkmate ?</p>
     <div class="form-group">
         <input placeholder="Answer 1" class="form-control" type="text" name="a1" id="a1"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 1 : White to move and checkmate in one.</p>
+    <p style="">Question 2 : White to move and checkmate in one.</p>
     <img style="height:200px" src="images/level_1/1.jpg"></img><br><br>
     <div class="form-group">
         <input placeholder="Answer 2" class="form-control" type="text" name="a2" id="a2"/>
@@ -265,7 +265,7 @@ function closeNav() {
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 6 : Guess the concept ?</p>
+    <p style="">Question 6 : Guess the concept.</p>
     <img style="height:200px" src="images/level_1/4.jpg"></img><br><br>
     <div class="form-group">
         <input placeholder="Answer 6" class="form-control" type="text" name="a6" id="a6"/>
@@ -280,7 +280,7 @@ function closeNav() {
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 8 : White to move and checkmate in one ?</p>
+    <p style="">Question 8 : White to move and checkmate in one.</p>
     <img style="height:200px" src="images/level_1/5.jpg"></img><br><br>
     <div class="form-group">
         <input placeholder="Answer 8" class="form-control" type="text" name="a8" id="a8"/>
@@ -303,7 +303,7 @@ function closeNav() {
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 11 : White to move and checkmate in one ?</p>
+    <p style="">Question 11 : White to move and checkmate in one.</p>
     <img style="height:200px" src="images/level_1/7.jpg"></img><br><br>
     <div class="form-group">
         <input placeholder="Answer 11" class="form-control" type="text" name="a11" id="a11"/>
@@ -343,37 +343,37 @@ function closeNav() {
     <p style="">Question 16 : Black to move, and checkmate in two.</p>
     <img style="height:200px" src="images/level_1/9.jpg"></img><br><br>
     <div class="form-group">
-        <input placeholder="Answer 15" class="form-control" type="text" name="a16" id="a16"/>
+        <input placeholder="Answer 16" class="form-control" type="text" name="a16" id="a16"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 17 : The below position is check, checkmate or a draw ?</p>
+    <p style="">Question 17 : The below position is check, checkmate or a draw.</p>
     <img style="height:200px" src="images/level_1/10.jpg"></img><br><br>
     <div class="form-group">
-        <input placeholder="Answer 15" class="form-control" type="text" name="a17" id="a17"/>
+        <input placeholder="Answer 17" class="form-control" type="text" name="a17" id="a17"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
     <p style="">Question 18 : What happens when pawn reaches the last rank (pawn promotion rule) ?</p>
     <div class="form-group">
-        <input placeholder="Answer 15" class="form-control" type="text" name="a18" id="a18"/>
+        <input placeholder="Answer 18" class="form-control" type="text" name="a18" id="a18"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 19 : White to move and checkmate in one ?</p>
+    <p style="">Question 19 : White to move and checkmate in one.</p>
     <img style="height:200px" src="images/level_1/11.jpeg"></img><br><br>
     <div class="form-group">
-        <input placeholder="Answer 15" class="form-control" type="text" name="a19" id="a19"/>
+        <input placeholder="Answer 19" class="form-control" type="text" name="a19" id="a19"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 20 : What is an illegal move?</p>
+    <p style="">Question 20 : What is an illegal move ?</p>
     <div class="form-group">
-        <input placeholder="Answer 15" class="form-control" type="text" name="a20" id="a20"/>
+        <input placeholder="Answer 20" class="form-control" type="text" name="a20" id="a20"/>
     </div>
   </div>
 

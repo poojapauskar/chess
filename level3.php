@@ -69,7 +69,7 @@ session_start();
         'http' => array(
           'header'  => array(
                         'USERNAME: '.$_SESSION['challenge_username'],
-                        'LEVEL: level3',
+                        'LEVEL: level1',
                       ),
           'method'  => 'GET',
         ),
@@ -94,7 +94,7 @@ session_start();
         'http' => array(
           'header'  => array(
                         'USERNAME: '.$_SESSION['challenge_username'],
-                        'LEVEL: level1',
+                        'LEVEL: level3',
                       ),
           'method'  => 'GET',
         ),
@@ -116,7 +116,7 @@ session_start();
         var seconds= '<?php echo $clock ?>';
         /*alert(seconds);*/
         if(seconds == ''){
-            seconds="3600";
+            seconds="2700";
         }
         countDown();
         function countDown()
@@ -212,7 +212,7 @@ function closeNav() {
 </script>
 
     <h4 class="main_heading" style="color:black;margin-top:3%;font-family: Action Man Shaded;">Challenge</h4>
-    <h6 class="main_heading" style="color:black;margin-top:;font-family: Action Man Shaded;">Level 3</h6>
+    <h6 class="main_heading" style="color:black;margin-top:;font-family: Action Man Shaded;">Level 1</h6>
   </div>
 
 <form method="post" name="myForm" id="myForm" action="submit.php">  
@@ -227,142 +227,155 @@ function closeNav() {
 </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 1 : What is Check ?</p>
+    <p style="">Question 1 : What is the difference between pin and fork ?</p>
     <div class="form-group">
         <input placeholder="Answer 1" class="form-control" type="text" name="a1" id="a1"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 2 : What is Checkmate ?</p>
+    <p style="">Question 2 : White to move and checkmate in two.</p>
+    <img style="height:200px" src="images/level_2/1.png"></img><br><br>
     <div class="form-group">
         <input placeholder="Answer 2" class="form-control" type="text" name="a2" id="a2"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 3 : What is Checkmate ?</p>
+    <p style="">Question 3 : Guess the concept.</p>
+    <img style="height:200px" src="images/level_2/2.png"></img><br><br>
     <div class="form-group">
         <input placeholder="Answer 3" class="form-control" type="text" name="a3" id="a3"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 4 : What is Checkmate ?</p>
+    <p style="">Question 4 : White to move and checkmate in three.</p>
+    <img style="height:200px" src="images/level_2/3.png"></img><br><br>
     <div class="form-group">
         <input placeholder="Answer 4" class="form-control" type="text" name="a4" id="a4"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 5 : What is Checkmate ?</p>
+    <p style="">Question 5 : How many maximum number of queens can a player have in chess ?</p>
     <div class="form-group">
         <input placeholder="Answer 5" class="form-control" type="text" name="a5" id="a5"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 6 : What is Checkmate ?</p>
+    <p style="">Question 6 : List the important steps in opening game.</p>
     <div class="form-group">
         <input placeholder="Answer 6" class="form-control" type="text" name="a6" id="a6"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 7 : What is Checkmate ?</p>
+    <p style="">Question 7 : Who has more chances to win in the below match, white or black ?</p>
+    <img style="height:200px" src="images/level_2/4.png"></img><br><br>
     <div class="form-group">
         <input placeholder="Answer 7" class="form-control" type="text" name="a7" id="a7"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 8 : What is Checkmate ?</p>
+    <p style="">Question 8 : Write the notation when white pawn kills black queen and promotes to a white queen.</p>
+    <img style="height:200px" src="images/level_2/5.jpg"></img><br><br>
     <div class="form-group">
         <input placeholder="Answer 8" class="form-control" type="text" name="a8" id="a8"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 9 : What is Checkmate ?</p>
+    <p style="">Question 9 : White to move and checkmate in three.</p>
+    <img style="height:200px" src="images/level_2/6.jpg"></img><br><br>
     <div class="form-group">
         <input placeholder="Answer 9" class="form-control" type="text" name="a9" id="a9"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 10 : What is Checkmate ?</p>
+    <p style="">Question 10 : Guess the concept.</p>
+    <img style="height:200px" src="images/level_2/7.png"></img><br><br>
     <div class="form-group">
         <input placeholder="Answer 10" class="form-control" type="text" name="a10" id="a10"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 11 : What is Checkmate ?</p>
+    <p style="">Question 11 : Which among the following is better. <br>a) A pawn supported by a queen.<br>b) A pawn supported by another pawn.</p>
     <div class="form-group">
         <input placeholder="Answer 11" class="form-control" type="text" name="a11" id="a11"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 12 : What is Checkmate ?</p>
+    <p style="">Question 12 : List two minor pieces and two major pieces in chess.</p>
     <div class="form-group">
         <input placeholder="Answer 12" class="form-control" type="text" name="a12" id="a12" />
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 13 : What is Checkmate ?</p>
+    <p style="">Question 13 : Guess the best move for white.</p>
+    <img style="height:200px" src="images/level_1/8.png"></img><br><br>
     <div class="form-group">
         <input placeholder="Answer 13" class="form-control" type="text" name="a13" id="a13"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 14 : What is Checkmate ?</p>
+    <p style="">Question 14 : White to move and checkmate in two.</p>
+    <img style="height:200px" src="images/level_2/9.JPG"></img><br><br>
     <div class="form-group">
         <input placeholder="Answer 14" class="form-control" type="text" name="a14" id="a14"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 15 : What is Checkmate ?</p>
+    <p style="">Question 15 : Explain the rules of castling.</p>
     <div class="form-group">
         <input placeholder="Answer 15" class="form-control" type="text" name="a15" id="a15"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 15 : What is Checkmate ?</p>
+    <p style="">Question 16 : Which is the best retreat move for the white bishop at b5 ?</p>
+    <img style="height:200px" src="images/level_2/10.jpg"></img><br><br>
     <div class="form-group">
-        <input placeholder="Answer 15" class="form-control" type="text" name="a16" id="a16"/>
+        <input placeholder="Answer 16" class="form-control" type="text" name="a16" id="a16"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 15 : What is Checkmate ?</p>
+    <p style="">Question 17 : White to move and draw.</p>
+    <img style="height:200px" src="images/level_2/11.jpg"></img><br><br>
     <div class="form-group">
-        <input placeholder="Answer 15" class="form-control" type="text" name="a17" id="a17"/>
+        <input placeholder="Answer 17" class="form-control" type="text" name="a17" id="a17"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 15 : What is Checkmate ?</p>
+     <p style="">Question 18 : Find the best move for white.</p>
+    <img style="height:200px" src="images/level_2/12.jpg"></img><br><br>
     <div class="form-group">
-        <input placeholder="Answer 15" class="form-control" type="text" name="a18" id="a18"/>
+        <input placeholder="Answer 18" class="form-control" type="text" name="a18" id="a18"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 15 : What is Checkmate ?</p>
+    <p style="">Question 19 : Which is the best move for black after e4, e5, Nf3 ?</p>
+    <img style="height:200px" src="images/level_1/13.jpg"></img><br><br>
     <div class="form-group">
-        <input placeholder="Answer 15" class="form-control" type="text" name="a19" id="a19"/>
+        <input placeholder="Answer 19" class="form-control" type="text" name="a19" id="a19"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 15 : What is Checkmate ?</p>
+    <p style="">Question 20 : Name Indias first grandmaster</p>
     <div class="form-group">
-        <input placeholder="Answer 15" class="form-control" type="text" name="a20" id="a20"/>
+        <input placeholder="Answer 20" class="form-control" type="text" name="a20" id="a20"/>
     </div>
   </div>
 
