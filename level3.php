@@ -69,7 +69,7 @@ session_start();
         'http' => array(
           'header'  => array(
                         'USERNAME: '.$_SESSION['challenge_username'],
-                        'LEVEL: level1',
+                        'LEVEL: level3',
                       ),
           'method'  => 'GET',
         ),
