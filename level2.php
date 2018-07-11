@@ -116,7 +116,7 @@ session_start();
         var seconds= '<?php echo $clock ?>';
         /*alert(seconds);*/
         if(seconds == ''){
-            seconds="2700";
+            seconds="3600";
         }
         countDown();
         function countDown()
@@ -319,7 +319,7 @@ function closeNav() {
 
   <div class="row" style="text-align: left;background-color: #8FD400">
     <p style="">Question 13 : Guess the best move for white.</p>
-    <img style="height:200px" src="images/level_1/8.png"></img><br><br>
+    <img style="height:200px" src="images/level_2/8.png"></img><br><br>
     <div class="form-group">
         <input placeholder="Answer 13" class="form-control" type="text" name="a13" id="a13"/>
     </div>
@@ -366,14 +366,14 @@ function closeNav() {
 
   <div class="row" style="text-align: left;background-color: #8FD400">
     <p style="">Question 19 : Which is the best move for black after e4, e5, Nf3 ?</p>
-    <img style="height:200px" src="images/level_1/13.jpg"></img><br><br>
+    <img style="height:200px" src="images/level_2/13.jpg"></img><br><br>
     <div class="form-group">
         <input placeholder="Answer 19" class="form-control" type="text" name="a19" id="a19"/>
     </div>
   </div>
 
   <div class="row" style="text-align: left;background-color: #8FD400">
-    <p style="">Question 20 : Name Indias first grandmaster</p>
+    <p style="">Question 20 : Name Indias first grandmaster.</p>
     <div class="form-group">
         <input placeholder="Answer 20" class="form-control" type="text" name="a20" id="a20"/>
     </div>

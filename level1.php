@@ -116,7 +116,7 @@ session_start();
         var seconds= '<?php echo $clock ?>';
         /*alert(seconds);*/
         if(seconds == ''){
-            seconds="2700";
+            seconds="3600";
         }
         countDown();
         function countDown()

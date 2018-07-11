@@ -112,7 +112,7 @@ function closeNav() {
          <li>The test includes concepts and puzzles.</li>
         <li>Answer the questions in the space provided.</li>
         <li>Hit submit only after the test is completed.</li>
-        <li>Time Period : 45 minutes.</li>
+        <li>Time Period : 1 hour.</li>
         <li>Winners decided based on the questions answered and the time taken.</li>
       </ol>  
 
